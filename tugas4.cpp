@@ -2,13 +2,11 @@
 #include <string>
 using namespace std;
 
-class ban
+class ban{
 	public:
 		void bahan(string karet);
 		string merk;
 		double harga;
-		
-	
 };
 int main () {
 	ban tubless;
@@ -20,5 +18,8 @@ int main () {
 	cout<<"Harga modal nya "<< (tubless.harga)<<endl;
 	
 	tubless.bahan("karet nya terbuat dari gatah");
+}
+void ban::bahan(string karet){
+	cout<<"karet yang digunakan sangat karet asli "<<karet<<" kan kerenn gan dijamin awet dan karet asli gatah!!!"<<endl;
 }
 	
