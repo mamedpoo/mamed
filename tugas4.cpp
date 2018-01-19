@@ -10,4 +10,9 @@ class ban
 		
 	
 };
-
+int main () {
+	ban tubless;
+	
+	tubless.merk ="yokohama";
+	tubless.harga = 13900000;
+	
